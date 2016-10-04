@@ -1,0 +1,18 @@
+{
+   "manifest_version": 2,
+
+   "name": "Habitica",
+   "author": "Sam Dale",
+   "description": "A launcher to quickly get to Habitica. Especially great for Mac users.",
+   "version": "1.0",
+   "icons": {"16": "habitica-logo-16.png", "128": "habitica-logo-128.png", "300": "habitica-logo-300.png"},
+
+   "browser_action": {
+      "default_icon": "habitica-logo-128.png",
+      "default_title": "Habitica"
+   },
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+   }
+}
